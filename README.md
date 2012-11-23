@@ -16,10 +16,12 @@ This plugin use Dstat, so you need to install Dstat before using this plugin.
   tag dstat
   option -c
   delay 3
+  hostname_command hostname -s
  </source>
 ```
 
 * option:option for dstat command(default: -fcdnm)
+* hostname_command:command for getting hostname (default: hostname). This is optional.
 
 ## Output Format
 
